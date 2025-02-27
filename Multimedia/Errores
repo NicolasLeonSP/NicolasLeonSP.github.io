@@ -1,0 +1,5 @@
+Error pasar to string - Mal manejo de strings y excepciones
+
+Error controlador de menubar - Iniciaba por menubar en vez de menubarcontroller
+
+Error Data Asignacio - Falta de poner este campo, asi que toco rehacer la base de datos y demas.

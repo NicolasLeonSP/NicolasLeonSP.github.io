@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Multimedia/FavGen.ico" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/cajas.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/image.css">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.googleapis.com, la cual aloja las hojas CSS de las fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.gstatic.com, la cual contiene las fuentes como tal-->
+    <!--El atributo crossorigin avisa que el servidor necesitara permitir que haga la solicitud otro dominio.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta parte de aqui se encarga de cargar la hoja de CSS como tal, utilizando la fuente de Silkscreen con dos weights, 400 y 700, 400 siendo la normal y 700 siendo bold.-->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Proyecto DAM 1A",
+          "alternateName": "Proyecto DAM 1A",
+          "url": "",
+          "logo": "http://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.steamgriddb.com%2Fgame%2F11465&psig=AOvVaw3gTTJ8KBZLYUdzEk-Jt6Ww&ust=1734267933495000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjPi9Opp4oDFQAAAAAdAAAAABAE"
+        }
+    </script>
+    <style>
+        #I1,
+        #I2,
+        #I3,
+        #I4,
+        #I5 {
+            /* Esto ajusta el valor para que deje bien posicionado los bookmarks */
+            scroll-margin-top: 18vh;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(../Multimedia/Fondo_Error.png);">
+
+    <header>
+        <nav class="header">
+            <div>
+                <a href="../index.html">
+                    <div>
+                        <p>Inicio</p>
+                    </div>
+                </a>
+                <a href="BaseDatos.html">
+                    <div>
+                        <p>Base de Datos</p>
+                    </div>
+                </a>
+                <a href="UML.html">
+                    <div>
+                        <p>UML</p>
+                    </div>
+                </a>
+                <a href="Manual_Us.html">
+                    <div>
+                        <p>Manual de Uso</p>
+                    </div>
+                </a>
+                <a href="IncidentsProblemes.html">
+                    <div>
+                        <p>Incidentes y Problemas</p>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="cajaTexto">
+            <a href="#I1">
+                <h1>Error Tipo Reserva</h1>
+            </a>
+            <a href="#I2">
+                <h1>Error Tipo IVA</h1>
+            </a>
+            <a href="#I3">
+                <h1>Error toString Null</h1>
+            </a>
+            <a href="#I4">
+                <h1>Error MenuBarController</h1>
+            </a>
+            <a href="#I5">
+                <h1>Error Fecha Asignacion</h1>
+            </a>
+        </section>
+        <section class="cajaTexto" ID="I1">
+            <h1>Error Tipo Reserva</h1>
+            <p>El Tipo de Reserva que se pedia y el que tenia yo en la base de datos eran distintos. La solucion era
+                simple, cambiar el tipo de reserva al correcto.</p>
+            <img src="../Multimedia/ErrorTipoReserva.png" alt="Pre Solucion">
+        </section>
+        <section class="cajaTexto" ID="I2">
+            <h1>Error Tipo IVA</h1>
+            <p>El Tipo de IVA que yo tenia no coincidia con el que necesitaria usar para Java, como antes, la
+                solucion era simple. Cambiar el campo de la base de datos a INT, y poner numeros en vez de
+                letras.</p>
+            <section style="display: flex; justify-content: center;">
+                <img src="../Multimedia/Error_Pre_Solucion_Tipo_IVA.png" alt="Pre Solucion">
+                <img src="../Multimedia/Error_Post_Solucion_Tipo_IVA.png" alt="Post Solucion">
+            </section>
+        </section>
+        <section class="cajaTexto" ID="I3">
+            <h1>Error toString null</h1>
+            <p>Este error consistio en mal manejo de strings y excepciones. Basicamente, trataba de convertir un objeto
+                que no existia en String. Esto se fue repitiendo alrededor del proyecto, pero la captura que pondre sera
+                el que mas problemas dio por ello.</p>
+            <img class="img50" src="../Multimedia/Error_Pasar_toString_nulo.png" alt="toString = null">
+        </section>
+        <section class="cajaTexto" ID="I4">
+            <h1>Error menuBarControler</h1>
+            <p>Este error consistio en iniciar el objeto mas que el controlador. Aunque parezca un error tonto, me costo
+                1 hora descubrirlo, por lo tanto, se merece estar aqui.</p>
+            <img class="img50" src="../Multimedia/Error_Controlador_MenuBar.png" alt="MenuBarController Error">
+        </section>
+        <section class="cajaTexto" ID="I5">
+            <h1>Error Fecha Asignacion</h1>
+            <p>Este error fue mas bien un malentendido con el enunciado de la practica.</p>
+            <img src="../Multimedia/Error_Data_Asignacio.png" alt="Fecha Asignacion Error">
+        </section>
+    </main>
+</body>
+
+</html>

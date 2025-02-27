@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Multimedia/FavGen.ico" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/cajas.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/image.css">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.googleapis.com, la cual aloja las hojas CSS de las fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.gstatic.com, la cual contiene las fuentes como tal-->
+    <!--El atributo crossorigin avisa que el servidor necesitara permitir que haga la solicitud otro dominio.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta parte de aqui se encarga de cargar la hoja de CSS como tal, utilizando la fuente de Silkscreen con dos weights, 400 y 700, 400 siendo la normal y 700 siendo bold.-->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Proyecto DAM 1A",
+          "alternateName": "Proyecto DAM 1A",
+          "url": "",
+          "logo": "http://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.steamgriddb.com%2Fgame%2F11465&psig=AOvVaw3gTTJ8KBZLYUdzEk-Jt6Ww&ust=1734267933495000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjPi9Opp4oDFQAAAAAdAAAAABAE"
+        }
+    </script>
+    <style>
+        #DC,
+        #DL,
+        #DF {
+            /* Esto ajusta el valor para que deje bien posicionado los bookmarks */
+            scroll-margin-top: 18vh;
+        }
+    </style>
+</head>
+<body style="background-image: url(../Multimedia/Fondo_Base_Datos.jpg);">
+    
+<header>
+    <nav class="header">
+        <div>
+            <a href="../index.html">
+                <div>
+                    <p>Inicio</p>
+                </div>
+            </a>
+            <a href="BaseDatos.html">
+                <div>
+                    <p>Base de Datos</p>
+                </div>
+            </a>
+            <a href="UML.html">
+                <div>
+                    <p>UML</p>
+                </div>
+            </a>
+            <a href="Manual_Us.html">
+                <div>
+                    <p>Manual de Uso</p>
+                </div>
+            </a>
+            <a href="IncidentsProblemes.html">
+                <div>
+                    <p>Incidentes y Problemas</p>
+                </div>
+            </a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="cajaTexto">
+        <a href="#DC"><h1>Disseny Conceptual</h1></a>
+        <a href="#DL"><h1>Disseny Logic-Relacional</h1></a>
+        <a href="#DF"><h1>Disseny Fisic</h1></a>
+    </section>
+    <section class="cajaTexto" id="DC">
+        <h1 >Disseny Conceptual</h1>
+        <iframe style="width:90%;height:650px;" src="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Disseny%20Base%20de%20Dades.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1dE1WQzHcPuL35IxuhdeTbeykWkG53Umf%26export%3Ddownload" allowtransparency="true"></iframe>
+    </section>
+    <section class="cajaTexto" id="DL">
+        <h1>Disseny Logic-Relacional</h1>
+        <iframe src="https://resolute-archduke-f07.notion.site/ebd/1904507ff75780c08921d53567d4c3b5" width="82%" height="1500" allowfullscreen></iframe>
+    </section>
+    <section class="cajaTexto" id="DF">
+        <h1 >Disseny Fisic</h1>
+        <iframe src="https://resolute-archduke-f07.notion.site/ebd/1a74507ff75780ee9df4e37891445e18" width="82%" height="1500" allowfullscreen></iframe>
+    </section>
+</main>
+</body>
+</html>

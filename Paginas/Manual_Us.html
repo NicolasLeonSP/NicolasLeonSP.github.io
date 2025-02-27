@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="shortcut icon" href="Multimedia/FavGen.ico" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/cajas.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/image.css">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.googleapis.com, la cual aloja las hojas CSS de las fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Esta parte de aqui avisa a la pagina web que se preconectara a la api de fonts.gstatic.com, la cual contiene las fuentes como tal-->
+    <!--El atributo crossorigin avisa que el servidor necesitara permitir que haga la solicitud otro dominio.-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Esta parte de aqui se encarga de cargar la hoja de CSS como tal, utilizando la fuente de Silkscreen con dos weights, 400 y 700, 400 siendo la normal y 700 siendo bold.-->
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Proyecto DAM 1A",
+          "alternateName": "Proyecto DAM 1A",
+          "url": "",
+          "logo": "http://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.steamgriddb.com%2Fgame%2F11465&psig=AOvVaw3gTTJ8KBZLYUdzEk-Jt6Ww&ust=1734267933495000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjPi9Opp4oDFQAAAAAdAAAAABAE"
+        }
+    </script>
+    <style>
+        #M1,
+        #M2,
+        #M3,
+        #M4,
+        #M5 {
+            /* Esto ajusta el valor para que deje bien posicionado los bookmarks */
+            scroll-margin-top: 18vh;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(../Multimedia/Fondo_Base_Datos.jpg);">
+
+    <header>
+        <nav class="header">
+            <div>
+                <a href="../index.html">
+                    <div>
+                        <p>Inicio</p>
+                    </div>
+                </a>
+                <a href="BaseDatos.html">
+                    <div>
+                        <p>Base de Datos</p>
+                    </div>
+                </a>
+                <a href="UML.html">
+                    <div>
+                        <p>UML</p>
+                    </div>
+                </a>
+                <a href="Manual_Us.html">
+                    <div>
+                        <p>Manual de Uso</p>
+                    </div>
+                </a>
+                <a href="IncidentsProblemes.html">
+                    <div>
+                        <p>Incidentes y Problemas</p>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="cajaTexto">
+            <a href="#M1">
+                <h1>Creacion de Cliente y Empleados</h1>
+            </a>
+            <a href="#M2">
+                <h1>Gestion de Reservas</h1>
+            </a>
+            <a href="#M3">
+                <h1>Facturas</h1>
+            </a>
+            <a href="#M4">
+                <h1>Crear tareas</h1>
+            </a>
+            <a href="#M5">
+                <h1>Listar Tareas y cambiar sus estados</h1>
+            </a>
+        </section>
+        <section class="cajaTexto" ID="M1">
+            <h1>Creacion de Cliente y Empleados</h1>
+            <p>Para navegarnos por este menu, deberemos de partirlo en 2 partes.</p>
+            <h2>Parte 1: Persona</h2>
+            <p>Empezaremos por crear la persona como tal. Cada uno tiene su error personalizado, asi que si hay algun
+                campo que este mal.</p>
+            <img class="img50" src="../Multimedia/CreacionPersona.png" alt="Creacion Persona">
+            <p>Ahora, una vez se han introducido todos los datos de la persona, podemos elegir si queremos que sea un empleado, cliente o los dos. Pero minimo debe ser uno.</p>
+            <img class="img50" src="../Multimedia/TipoClienteEmpleado.png" alt="Tipo Cliente o Empleado">
+            <p>Una vez seleccionado, pasamos a...</p>
+            <h2>Parte 2.1: Cliente</h2>
+            <p>Si se ha escogido la opcion de cliente, tambien habra que rellenar estos campos.</p>
+            <img class="img50" src="../Multimedia/Cliente.png" alt="Creacion Cliente">
+            <p>Como se puede ver, tarjeta de credito es opcional, si no introduces nada, seguiria funcionando.</p>
+            <h2>Parte 2.2: Empleado</h2>
+            <p>Si se ha escogido la opcion de empleado, tambien habra que rellenar estos campos.</p>
+            <img class="img50" src="../Multimedia/Empleado.png" alt="Creacion Empleado">
+            <p>Aqui se tienen que rellenar todos los campos.</p>
+            <h2>Al acabar...</h2>
+            <p>Al rellenar todo, le deberas de dar a crear. Tambien puedes reiniciar el formulario entero por si tienes que eliminar muchos campos y demas.</p>
+            <img class="img50" src="../Multimedia/CreacionReiniciarPersona.png" alt="Boton Crear Reiniciar">
+            <p>Si ha habido algun error, te apareceran los errores tal que asi:</p>
+            <img class="img50" src="../Multimedia/ErrorGenerico.png" alt="Error Generico">
+            <p>Sigue las instrucciones del error, hasta que en algun punto, te saldra un mensaje tal que asi:</p>
+            <img class="img50" src="../Multimedia/MensajeSubidoPersona.png" alt="Mensaje Subido de Creacion de la Persona">
+            <p>Si no has seleccionado las dos opciones, en vez de salirte con que los dos se han creado con exito, te saldra solo el que hayas elegido.</p>
+
+        </section>
+        <section class="cajaTexto" ID="M2">
+            <h1>Gestion de Reservas</h1>
+            <p>Para navegarnos por este menu, tal como el anterior, lo partiremos en 4 partes, aunque 3 de ellas seran independientes una de la otra.</p>
+            <h2>Parte 1: Busqueda de la persona</h2>
+            <p>Esta parte es simple, el programa te pedira que introduzcas un DNI. Introduce el DNI del cliente al cual quieras hacerle la reserva.</p>
+            <img class="img50" src="../Multimedia/PersonaReserva.png" alt="Persona Reserva">
+            <p>Mensaje de Error</p>
+            <img class="img50" src="../Multimedia/MensajeErrorDNIClienteReserva.png" alt="Mensaje Busqueda Error Reserva">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/ExitoBusquedaClienteReserva.png" alt="Mensaje Busqueda Exito Reserva">
+            <h2>Parte 2: Creacion de la Reserva</h2>
+            <p>Como he comentado antes, a partir de ahora, cada parte es independiente. En esta parte, es para crear reservas, es rellenar los campos y hacer caso a los errores que salgan.</p>
+            <img class="img50" src="../Multimedia/CreacionReserva.png" alt="Mensaje Exito Reserva">
+            <p>Mensaje de Error:</p>
+            <img class="img50" src="../Multimedia/MensajeErrorCreacionReserva.png" alt="Mensaje Creacion Error Reserva">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeCreacionReservaExitosa.png" alt="Mensaje Creacion Exito  Reserva">
+            <h2>Parte 3: Edicion de la Reserva</h2>
+            <p>Como es edicion en vez de creacion, habra una parte que sea seleccionar una reserva. En la siguiente parte tambien se repetira. Los errores seran los mismos que la busqueda de cliente.</p>
+            <img class="img50" src="../Multimedia/SeleccionarReservaEdicion.png" alt="Mensaje Exito Reserva">
+            <p>Y una vez seleccionado, deberian salir los datos de la reserva.</p>
+            <img class="img50" src="../Multimedia/EditarReserva.png" alt="Editar Reserva">
+            <p>Aqui deberias de cambiar lo que quieras, y una vez decidido lo que se quiera editar, le das a editar y se aplicarian los cambios.</p>
+            <p>Mensaje de Error:</p>
+            <img class="img50" src="../Multimedia/MensajeErrorCreacionReserva.png" alt="Mensaje Edicion Error Reserva">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeEdicionReservaExitosa.png" alt="Mensaje Edicion Exito Reserva">
+            <h2>Parte 4: Eliminacion de la Reserva</h2>
+            <p>Este menu es bastante simple, solo se puede seleccionar la reserva, y darle a eliminar.</p>
+            <img class="img50" src="../Multimedia/EliminarReserva.png" alt="Eliminar Reserva">
+            <p>Una vez le des, te saldra un mensaje de confirmacion, para asegurarte de que quieras eliminar la reserva.</p>
+            <img class="img50" src="../Multimedia/MensajeEliminacionReservaPregunta.png" alt="Mensaje Pregunta Eliminar Reserva">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeEliminacionReservaExito.png" alt="Mensaje Eliminacion Exito Reserva">
+        </section>
+        <section class="cajaTexto" ID="M3">
+            <h1>Gestion de Facturas</h1>
+            <p>Para navegar este menu, lo dividiremos, otra vez, en partes. Esta vez siendo un total de 3, 2 de ellas siendo independientes entre si.</p>
+            <h2>Parte 1: Busqueda de la reserva</h2>
+            <p>Esta parte es simple, el programa te pedira que introduzcas un DNI. Introduce el DNI del cliente, una vez seleccionado, elije la reserva que quieras.</p>
+            <img class="img50" src="../Multimedia/FacturaBuscarCliente.png" alt="Factura Cliente">
+            <p>Mensaje de Error</p>
+            <img class="img50" src="../Multimedia/MensajeErrorDNIClienteReserva.png" alt="Mensaje Busqueda Error Factura">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/ExitoBusquedaClienteReserva.png" alt="Mensaje Busqueda Exito Factura">
+            <p>Una vez elegido, tocara elegir una reserva de las disponibles del cliente.</p>
+            <img class="img50" src="../Multimedia/FacturaBuscarReserva.png" alt="Mensaje Busqueda Exito Factura">
+            <h2>Parte 2: Generar Factura</h2>
+            <p>Esta y la siguiente parte son independientes.En la generacion de factura, el unico dato que se pide es el metodo de pago, ya que lo demas se lleva internamente. Una vez se seleccione uno, tendras que darle al boton de generar para generar una factura.</p>
+            <img class="img50" src="../Multimedia/GenerarFactura.png" alt="Generar Factura">
+            <p>Mensaje de Error</p>
+            <img class="img50" src="../Multimedia/MensajeErrorGenerarFactura.png" alt="Mensaje Error Factura">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeExitoGenerarFactura.png" alt="Mensaje Generar Factura">
+            <h2>Parte 3: Ver Factura</h2>
+            <p>Una vez creada la factura, o se ha encontrado una factura previamente, se mostrara este menu. La unica cosa que se puede modificar en verdad es el metodo de pago.</p>
+            <img class="img50" src="../Multimedia/VerFactura.png" alt="Ver Factura">
+            <p>Si se selecciona el boton de editar, si se ha cambiado algun cambio, se editara la factura.</p>
+            <p>Mensaje de Error:</p>
+            <img class="img50" src="../Multimedia/MensajeErrorVerFacturaEdicion.png" alt="Mensaje Error Editar Factura">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeEdicionVerFacturaExitosa.png" alt="Mensaje Exito Editar Factura">
+            <p>Ahora, cuando se quiera eliminar algo, te tirara un mensaje de confirmacion.</p>
+            <img class="img50" src="../Multimedia/MensajeConfirmacionEliminacionFactura.png" alt="Mensaje Confirmacion Eliminar Factura">
+            <p>Una vez se le de a aceptar, se elimina la factura.</p>
+        </section>
+        <section class="cajaTexto" ID="M4">
+            <h1>Creacion Tarea</h1>
+            <p>Para navegar este menu, como todos los menus, lo dividiremos en partes. Esta vez, todas las partes son independientes entre si.</p>
+            <h2>Parte 1: Creacion de una tarea</h2>
+            <p>Para crear una tarea, solo necesitaremos rellenar estos dos campos y darle a crear.</p>
+            <img class="img50" src="../Multimedia/CreacionTarea.png" alt="Crear Tarea">
+            <p>Mensaje de Error</p>
+            <img class="img50" src="../Multimedia/MensajeErrorCreacioTasca.png" alt="Mensaje Error Creacion Tarea">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeExitoCreacionTasca.png" alt="Mensaje Exito Creacion Tarea">
+            <h2>Parte 2: Creacion de una tarea, y asignar un empleado a ella al inmediato.</h2>
+            <p>Para esto, necesitaremos rellenar un campo mas, siendo el DNI del cliente. Como antes, tambien da error si no encuentra al cliente y demas.</p>
+            <img class="img50" src="../Multimedia/CreacionTareaEmpleado.png" alt="Crear Tarea Empleado">
+            <p>Mensaje de Error</p>
+            <img class="img50" src="../Multimedia/MensajeErrorCreacionTareaEmpleado.png" alt="Mensaje Error Creacion Tarea Empleado">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeExitoCreacionTareaEmpleado.png" alt="Mensaje Exito Creacion Tarea Empleado">
+            <h2>Parte 3: Asignar un empleado a una tarea.</h2>
+            <p>Aqui necesitaremos seleccionar una tarea, y introducir el DNI del empleado que queramos asignar a ella, dara error si ya esta asignado o no existe.</p>
+            <img class="img50" src="../Multimedia/AsignarTareaEmpleado.png" alt="Asignar Tarea Empleado">
+            <p>Mensaje de Error</p>
+            <img class="img50" src="../Multimedia/MensajeErrorAsignarTareaEmpleado.png" alt="Mensaje Error Asignar Tarea Empleado">
+            <p>Mensaje de Exito</p>
+            <img class="img50" src="../Multimedia/MensajeExitoAsignarTareaEmpleado.png" alt="Mensaje Exito Asignar Tarea Empleado">
+        </section>
+        <section class="cajaTexto" ID="M5">
+            <h1>Listar Tareas y cambiar sus estados</h1>
+            <p>Para navegar por este menu, tendremos dos pestañas juntas en una, la primera siendo la seleccion de tarea o asignacion, y la segunda la edicion del estado.</p>
+            <h2>Parte 1: Seleccion de la tarea o asignacion</h2>
+            <p>Para esto, deberas de darle click a la tarea que quieras editar, y de paso te mostrara sus empleados.</p>
+            <img class="img50" src="../Multimedia/ListarTareasYSusEmpleados.png" alt="Listar tareas">
+            <p>Una vez escogido la tarea o el empleado asignado que quieras modificar, le deberas de dar al editar que este debajo de lo seleccionado.</p>
+            <p>Si se hace correctamente, deberia de saltarte el siguiente menu:</p>
+            <h2>Parte 2: Modificacion de estado</h2>
+            <p>Si has elegido tarea o asignacion da igual, te llevaran al mismo menu, siendo este.</p>
+            <img class="img50" src="../Multimedia/ModificarEstadoTarea.png" alt="Modificar estado tarea">
+            <p>Aqui dentro, deberas de modificar el estado a uno superior del actual. Si esta en completado, deberas de salirte del menu seleccionado cualquier cosa de la menubar.</p>
+            <p>Una vez elegido el que quieras, le das a editar, y dependiendo si lo has hecho bien o mal, saltara uno de los siguientes mensajes:</p>
+            <p>Mensaje de error:</p>
+            <img class="img50" src="../Multimedia/MensajeErrorCambiarEstadoTarea.png" alt="Modificar estado tarea">
+            <p>Mensaje de confirmacion:</p>
+            <img class="img50" src="../Multimedia/MensajeConfirmacionCambiarEstadoTarea.png" alt="Modificar estado tarea">
+            <p>Una vez se le de a que si, ya estaria completado la modificacion.</p>
+        </section>
+    </main>
+</body>
+
+</html>
