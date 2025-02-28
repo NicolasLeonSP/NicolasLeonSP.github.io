@@ -5,11 +5,7 @@
 }
 /*Esta clase se encargara de dar color a las cajas que contengan texto o formularios. Es el estandar de la pagina.*/
 .cajaTexto{
-    background-color: #2351a5;
+    background-color: #3584E4;
     margin: 20px;
     border: solid 3px #F2AB27;
-}
-/*Esta generalizacion se encargara de dar color al texto de dentro de las cajas como tal.*/
-.cajaTexto h1, .cajaTexto h2, .cajaTexto h3, .cajaTexto p, .cajaTexto li{
-    color: #1B0140;
 }
