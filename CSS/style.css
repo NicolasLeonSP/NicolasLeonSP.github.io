@@ -43,6 +43,11 @@ p, h1, h2, h3{
 a{
     text-decoration: none;
 }
+/* Esta generalizacion es para hacer un efecto de cambio de color al pasar el mouse por encima del link.*/
+a:hover {
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
 /*Esta generalizacion sirve para darle formato a los videos que introduzcamos.*/
 iframe{
     margin: 20px;
