@@ -51,7 +51,7 @@ a:hover {
 /*Esta generalizacion sirve para darle formato a los videos que introduzcamos.*/
 iframe{
     margin: 20px;
-    border: solid 3px #F2AB27;
+    border: solid 3px #ffffff;
 }
 /*Esta clase, que en realidad es generalizacion, sirve para cambiar la fuente de la pagina. Aqui solo le cambiamos el color.*/
 .silkscreen-regular {

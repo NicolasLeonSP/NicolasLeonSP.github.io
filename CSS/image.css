@@ -1,12 +1,12 @@
 /*Esta generalizacion sirve para dar formato a las imagenes que se vayan introduciendo, en general.*/
 img{
     margin: 20px;
-    border: solid 3px #F2AB27;
+    border: solid 3px #ffffff;
     width: 20%;
 }
 /*Esta generalizacion sirve para poner las imagenes como antes, solo que al 90% de width.*/
 .img50{
     margin: 20px;
-    border: solid 3px #F2AB27;
+    border: solid 3px #ffffff;
     width: 50%;
 }
